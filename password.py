@@ -1,6 +1,6 @@
 password = 'a123456'
-x = 3
-while True:
+x = 3 #剩余机会
+while x > 0:
 	q = input('请输入你的密码: ')
 	if q == password:
 		print('登陆成功!')
