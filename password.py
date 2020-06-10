@@ -8,5 +8,3 @@ while x > 0:
 	else:
 		x = x - 1
 		print('密码错误! 还有', x, '次机会')
-		if x == 0:
-			break
